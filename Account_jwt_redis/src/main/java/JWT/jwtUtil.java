@@ -43,13 +43,7 @@ public class jwtUtil {
 
 	        return signedJWT.serialize();
 	    }
-	    public static void main(String[] args) throws ParseException, JOSEException {
-	        String userId = "123"; // Your user ID
-	        String token = createJWT(userId, "Baeldung", "Baeldung Details", 3600000); // 1 hour expiration
-	        System.out.println("Generated JWT: " + token);
-
-	     
-	    }
+	    
 
 	
 
